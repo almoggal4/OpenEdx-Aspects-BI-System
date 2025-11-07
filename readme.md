@@ -34,8 +34,8 @@ High Traffic – While the Tutor system had been tested and optimized for traffi
 - **Karpenter**: Managed scaling in the EKS cluster.
 - **OpenEdx/MOOC**: Integrated the project with the MOOC platform (took events from the MOOC platform and created SSO integration with it).
 - **ClickHouse Cluster**: Stored all events from the EDX courses and studio websites.
-- **DBT**: Making all the creation of the Clickhouse Objects in few minutes using a simple K8S job. 
 ![alt text](readme-images/clickhouse.png)
+- **DBT**: Making all the creation of the Clickhouse Objects in few minutes using a simple K8S job. 
 - **Python**: Developed scripts for editing and creating objects in ClickHouse, including scripts to restore past JSON events from S3 to ClickHouse.
 - **Redis**: Managed task queues from Superset's worker and EDX LMS/CMS workers.
 - **MySQL**: Handled Superset’s metadata.
